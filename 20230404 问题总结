@@ -40,7 +40,8 @@
 f代表浮点型。为浮点型类型的标识。
 
 4、double和float取值的有效数字分别是多少？
-Double为15-16位有效数字，float为7位有效数字。
+Double为15-16位有效数字，float为7位有效数字，Cout默认输出六位有效数字。
+更改有效数字的方法是cout.precision(n); n为有效数字个数。
 
 5、如何提高有效数字的精度？
 需要用到setprecision，控制小数点后数字精度需要用到setprecision和fixed，这两个操作符都包含在#include的头文件里面。
